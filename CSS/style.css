@@ -806,15 +806,6 @@ img{
         height:0;
     }
 
-    .Descripcion-video iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-
-    }
-
     /* End: Video Responsive  daa*/
 }   
 
