@@ -770,6 +770,7 @@ img{
 
     
     display: flex;
+    justify-content: center;
     align-items: center;
     /* Start: Video Responsive */
     padding: 10px 20px;
@@ -790,12 +791,10 @@ img{
         
     }
     .Descri-article {
-    
         display: block;
         color: var(--blanco);
         padding: 10px 20px;
         text-decoration: none;
-    
     
     }
     img{
