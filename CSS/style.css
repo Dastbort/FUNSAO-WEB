@@ -775,7 +775,6 @@ img{
     /* Start: Video Responsive */
     padding: 10px 20px;
     overflow:hidden;
-    padding-bottom: 400px; /* Adecua este valor para controlar la altura del video */
     position:relative;
     width: auto;
     
@@ -806,7 +805,6 @@ img{
         max-width: 100%;
         /* Start: Video Responsive */
         overflow:hidden;
-        padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
         position:relative;
        
     }
