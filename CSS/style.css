@@ -24,6 +24,7 @@
 
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -767,6 +768,7 @@ img{
 
 .Descripcion-video {
 
+    
     display: flex;
     align-items: center;
     /* Start: Video Responsive */
@@ -789,12 +791,11 @@ img{
     }
     .Descri-article {
     
-        display: inline-block;
+        display: block;
         color: var(--blanco);
         padding: 10px 20px;
         text-decoration: none;
-        display: flex;
-        justify-content: space-around;
+    
     
     }
     img{
@@ -803,8 +804,7 @@ img{
 
     .Descripcion-video {
 
-        height: auto;
-        width: 100%;
+        max-width: 100%;
         /* Start: Video Responsive */
         overflow:hidden;
         padding-bottom:400px; /* Adecua este valor para controlar la altura del video */
